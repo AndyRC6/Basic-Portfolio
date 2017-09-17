@@ -6,22 +6,51 @@ body{
 	height:80px;
 	border-bottom: solid;
 	border-bottom-color: grey;
-	position:relative;
-	bottom: 20px;
-	width:2000px;
-	right:10px;
+	position:fixed;
+	width:100%;
+	top:0px;
+	left:0px;
 }
 .myName{
 	background-color:#4aaaa5;
 	width:300px;
-	height:60px;
+	height:80px;
 	text-align: center;
-	padding:10px 0px;
+	vertical-align: center;
 	margin-left: 150px;
+	float:left;
 }
 .myName h1{
 	color:white;
+	font-size: 24px;
+	padding-top:6px;
 }
 h1{
 	font-family:'Georgia', Times, Times New Roman, serif;
+}
+.headerLinks{
+	float:left;
+	position:fixed;
+	top:5px;
+	left:850px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.headerLinks ul{
+	list-style-type: none;
+}
+.headerLinks li{
+	float:left;
+	margin:10px 0px 0px 10px;
+	color:grey;
+}
+.headerLinks a{
+	text-decoration: none;
+	color:grey;
+	transition: color 0.5s ease;
+}
+.headerLinks a:visited{
+	color:grey;
+}
+.headerLinks a:hover{
+	color:#4aaaa5;
 }
