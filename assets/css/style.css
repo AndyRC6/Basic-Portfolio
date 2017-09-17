@@ -1,0 +1,27 @@
+body{
+	background-image: url(../images/ep_naturalwhite.png);
+}
+.header{
+	background-color:#ffffff;
+	height:80px;
+	border-bottom: solid;
+	border-bottom-color: grey;
+	position:relative;
+	bottom: 20px;
+	width:2000px;
+	right:10px;
+}
+.myName{
+	background-color:#4aaaa5;
+	width:300px;
+	height:60px;
+	text-align: center;
+	padding:10px 0px;
+	margin-left: 150px;
+}
+.myName h1{
+	color:white;
+}
+h1{
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
