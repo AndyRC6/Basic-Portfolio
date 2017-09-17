@@ -54,3 +54,18 @@ h1{
 .headerLinks a:hover{
 	color:#4aaaa5;
 }
+.content{
+	background-color: #ffffff;
+	clear:both;
+	margin-top: 150px;
+	width:650px;
+	margin-left:150px;
+	padding:20px 20px;
+}
+.content h1{
+	color:#4aaaa5;
+	padding-bottom: 20px;
+	border-bottom:solid;
+	border-color: grey;
+	border-width:1px;
+}
