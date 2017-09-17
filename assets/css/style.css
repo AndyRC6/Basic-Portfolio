@@ -66,6 +66,14 @@ h1{
 	color:#4aaaa5;
 	padding-bottom: 20px;
 	border-bottom:solid;
-	border-color: grey;
-	border-width:1px;
+	border-color: rgba(255, 255, 255, .5);
+	border-width:3px;
+}
+.content img{
+	float:left;
+}
+.content p{
+	content: "";
+    display: table;
+    clear: both;
 }
