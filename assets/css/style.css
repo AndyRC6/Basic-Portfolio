@@ -86,7 +86,7 @@ h1{
 	background-color: #ffffff;
 	width:20%;
 	margin-right: 15%;
-	padding:20px 20px;
+	padding:1% 2%;
 }
 .connectBox h1{
 	color:#4aaaa5;
@@ -139,4 +139,26 @@ input[type="submit"]{
 	padding:10px;
 	font-size: 16px;
 	width:90px;
+}
+.gallerySection{
+	background-color: black;
+	margin-left: 15%;
+}
+#galleryBox{
+	float:left;
+	width:50%;
+}
+#galleryBox img{
+	width:60%;
+}
+#galleryBox p{
+	background-color:#4aaaa5;
+	position:relative;
+	width:60%;
+	height:40px;
+	clear:both;
+	text-align:center;
+	color:white;
+	bottom:70px;
+	padding-top:15px;
 }
