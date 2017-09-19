@@ -160,6 +160,7 @@ input[type="submit"]:active{
 	width:82%;
 	height:164px;
 	transition: opacity 0.5s ease;
+	max-width: 250px;
 }
 #galleryBox p{
 	background-color:#4aaaa5;
@@ -171,6 +172,7 @@ input[type="submit"]:active{
 	color:white;
 	bottom:70px;
 	padding-top:15px;
+	max-width: 250px;
 }
 #galleryBox img:hover{
 	opacity:0.5;
