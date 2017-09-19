@@ -153,14 +153,14 @@ input[type="submit"]:active{
 	width:50%;
 }
 #galleryBox img{
-	width:250px;
+	width:82%;
 	height:164px;
 	transition: opacity 0.5s ease;
 }
 #galleryBox p{
 	background-color:#4aaaa5;
 	position:relative;
-	width:250px;
+	width:82%;
 	height:40px;
 	clear:both;
 	text-align:center;
