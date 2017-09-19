@@ -84,10 +84,10 @@ h1{
 }
 .connectBox{
 	margin-top:150px;
-	float:right;
+	float:left;
 	background-color: #ffffff;
 	width:20%;
-	margin-right: 15%;
+	margin-left: 2%;
 	padding:1% 2%;
 }
 .connectBox h1{
