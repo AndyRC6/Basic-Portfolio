@@ -151,6 +151,7 @@ input[type="submit"]{
 #galleryBox img{
 	width:250px;
 	height:164px;
+	transition: opacity 0.5s ease;
 }
 #galleryBox p{
 	background-color:#4aaaa5;
@@ -162,4 +163,8 @@ input[type="submit"]{
 	color:white;
 	bottom:70px;
 	padding-top:15px;
+}
+#galleryBox img:hover{
+	opacity:0.5;
+	cursor: pointer;
 }
