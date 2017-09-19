@@ -135,10 +135,14 @@ h1{
 input[type="submit"]{
 	color:white;
 	background-color: #4aaaa5;
-	border-style: none;
+	border:none;
 	padding:10px;
 	font-size: 16px;
 	width:90px;
+	cursor: pointer;
+}
+input[type="submit"]:active{
+	background-color: #a6d8d6;
 }
 .gallerySection{
 	background-color: black;
@@ -167,4 +171,8 @@ input[type="submit"]{
 #galleryBox img:hover{
 	opacity:0.5;
 	cursor: pointer;
+}
+.bottomSpace{
+	clear:both;
+	margin-bottom:200px;
 }
