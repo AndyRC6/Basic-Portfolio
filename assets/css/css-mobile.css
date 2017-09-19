@@ -8,8 +8,11 @@ h1{
 }
 .connectBox{
 	float:none;
-	display:block;
-	margin-left:20%;
+	margin-right:none;
+	background-color: transparent !important;
+}
+.connectBox h1{
+	display:none;
 }
 .headerLinks{
 	font-size: 10px;
@@ -18,8 +21,20 @@ h1{
 	font-size:12px;
 }
 .iconList {
-	width:50%;
+	width: 200%;
 	margin-right:100%;
+}
+.iconList li{
+	clear:both;
+}
+#galleryBox img{
+	display:none;
+}
+#galleryBox p{
+	margin-top:100%;
+	padding:40px 0px 20px 0px;
+	min-width:70px;
+	font-size: 12px;
 }
 
 
