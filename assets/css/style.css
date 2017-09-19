@@ -13,16 +13,16 @@ body{
 }
 .myName{
 	background-color:#4aaaa5;
-	width:300px;
+	width:20%;
 	height:80px;
 	text-align: center;
 	vertical-align: center;
-	margin-left: 15%;
+	margin-left: 13%;
 	float:left;
 }
 .myName h1{
 	color:white;
-	font-size: 24px;
+	font-size: 50%%;
 	padding-top:6px;
 }
 h1{
@@ -69,6 +69,7 @@ h1{
 }
 #portfolioPic{
 	margin:20px;
+	width:30%;
 }
 .content h1{
 	color:#4aaaa5;
@@ -95,9 +96,14 @@ h1{
 	padding-bottom: 20px;
 	border-bottom:solid;
 	border-bottom-color: #e6e6e6;
+	text-align: center;
 }
 .iconList{
 	list-style-type: none;
+}
+.iconList ul{
+	margin-left:50%;
+	margin-right:50%;
 }
 .iconList li{
 	float:left;
@@ -107,7 +113,7 @@ h1{
 }
 
 .iconList li img{
-	width:80%;
+	width:80%
 }
 .footer{
 	clear:both;

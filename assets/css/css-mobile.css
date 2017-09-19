@@ -1,0 +1,26 @@
+@media only screen and (max-width: 750px){
+body{
+}
+.content{
+}
+h1{
+	font-size:18px;
+}
+.connectBox{
+	float:none;
+	display:block;
+	margin-left:20%;
+}
+.headerLinks{
+	font-size: 10px;
+}
+.myName h1{
+	font-size:12px;
+}
+.iconList {
+	width:50%;
+	margin-right:100%;
+}
+
+
+}
