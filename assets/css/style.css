@@ -135,6 +135,8 @@ h1{
 }
 .contactForm input{
 	width:80%;
+	font-size:14px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .contactForm textarea{
 	width:80%;
